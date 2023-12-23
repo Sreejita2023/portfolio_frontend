@@ -4,7 +4,7 @@ import star from "../assests/Star.png";
 import { motion } from "framer-motion";
 function Home() {
   return (
-    <div className="bg-slate-800 left-0 right-0 relative z-10 px-4 flex flex-row justify-around pb-4 pt-10">
+    <div className="bg-slate-800 left-0 right-0 relative z-10 px-4 flex lg:flex-row lg:justify-around  flex-col gap-y-12 items-center pb-4 pt-10">
       <div className="">
         <div className=" text-red-400 text-base font-normal font-['Epilogue'] uppercase leading-loose tracking-[3px] mb-2">
           Sreejita Sen
@@ -28,7 +28,7 @@ function Home() {
             Dream Project
           </div>
         </div>
-        <div className=" w-[470px] h-[66px] text-white text-opacity-60 text-base font-normal font-['Epilogue'] leading-loose mb-5">
+        <div className=" max-w-[470px]  text-white text-opacity-60 text-base font-normal font-['Epilogue'] leading-loose mb-5">
           Agency provides a full service range including technical skills,
           design, business understanding.
         </div>

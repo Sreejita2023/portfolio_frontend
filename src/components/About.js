@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function About() {
   return (
     <div className="bg-orange-50 left-0 right-0 flex flex-col relative  z-10 px-4 pb-14 pt-20 ">
-      <div className="flex flex-row justify-around pb-20">
+      <div className="flex lg:flex-row lg:justify-around flex-col items-center pb-20 gap-y-6">
         <div className="">
           <motion.img
             initial={{ opacity: 0, scale: 0.5 }}
@@ -42,13 +42,14 @@ function About() {
       </div>
       <div className="Rectangle w-10/12 h-px mx-auto bg-red-200" />
      
-      <div className="flex flex-row justify-around items-center pt-20">
+      <div className="flex lg:flex-row lg:justify-around flex-col items-center pt-20 gap-y-12">
         <div>
         <div className="HowWeWork mb-10 items-start text-red-400 text-base font-normal font-['Epilogue'] uppercase leading-loose tracking-[3px]">How we work</div>   
         <div className="MakingYourProjects mb-4 text-orange-950 text-[40px] font-extrabold font-['Epilogue'] leading-[48px]">Making Your Projects <br/>Look Awesome</div>
         <div className="TechnicalSkillsDe mb-12 w-[470px] h-[68px] text-orange-950 text-opacity-60 text-base font-normal font-['Epilogue'] leading-loose">Technical skills, design, business understanding, ability to put themselves in the merchant's shoes.</div>
         <div className="ReadMore cursor-pointer  text-orange-950 text-base font-normal font-['Epilogue'] leading-loose">Read More</div>
         </div>
+        <div className="Rectangle w-10/12 h-px mx-auto block lg:hidden bg-red-200" />
         <div>
             <motion.div className="flex flex-row items-center mb-8" initial={{ opacity: 0, x: 200 }}
           whileInView={{ opacity: 1, x: 0 }}

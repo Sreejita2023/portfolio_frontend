@@ -7,21 +7,21 @@ function Portfolio() {
     window.open(url, '_blank', 'noreferrer');
   };
   return (
-    <div className="bg-slate-800 left-0 right-0 relative z-10 px-4 flex flex-col pt-10 pb-20">
+    <div className="bg-slate-800 left-0 right-0 relative z-10 px-4  flex flex-col pt-10 pb-20">
       <div className=" px-20 mb-10 ">
         <div className=" text-red-400 text-base font-normal font-['Epilogue'] uppercase leading-loose tracking-[3px] mb-2">
           Projects
         </div>
-        <div className="flex flex-row justify-between">
+        <div className="flex lg:flex-row lg:justify-between flex-col items-start gap-y-4">
           <div className="LatestWork  text-white text-[50px] font-extrabold font-['Epilogue'] leading-[64px]">
             Latest Work
           </div>
-          <button className='rounded-md border border-white border-opacity-30 text-center text-white text-sm font-black font-["Epilogue"] uppercase px-6 py-2 justify-self-end'>
+          <button className='rounded-md border border-white border-opacity-30 text-center text-white text-sm font-black font-["Epilogue"] uppercase px-6  py-2 justify-self-end'>
             Explore More
           </button>
         </div>
       </div>
-      <div className="grid grid-cols-1 px-20 gap-y-12">
+      <div className="grid grid-cols-1 place-content-center  md:px-20 sm:px-10 px-4 gap-y-12 ">
         <motion.div
           className="  h-[250px]   rounded-md   relative cursor-pointer  "
           style={{

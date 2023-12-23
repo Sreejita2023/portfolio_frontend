@@ -13,7 +13,7 @@ function Skills() {
         How I Can Help <br />
         You With
       </div>
-      <div className="flex flex-row  justify-center ">
+      <div className="flex lg:flex-row  lg:justify-center flex-col items-center gap-y-6">
         <motion.div
           initial={{ opacity: 0, scale: 0.5, y: 20 }}
           whileInView={{ opacity: 1, scale: 1, y: -10 }}

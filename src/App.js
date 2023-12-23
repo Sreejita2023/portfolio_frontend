@@ -2,6 +2,10 @@ import Nav from "./components/Nav";
 import Change from "./Change";
 import Footer from "./components/Footer";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 function App() {
   return (
     <div className=" min-h-screen w-screen relative  left-0 right-0 ">
@@ -10,6 +14,7 @@ function App() {
           <Change/>
           <Footer/>
       </div>
+      <ToastContainer />
     </div>
   );
 }

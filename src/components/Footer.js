@@ -10,16 +10,16 @@ function Footer() {
 
   return (
     <div className="bg-slate-800 left-0 right-0 relative z-10 px-4 pb-4 pt-10">
-        <div className='flex flex-row justify-around pb-8'>
+        <div className='flex lg:flex-row lg:justify-around flex-col items-center pb-8 gap-y-8'>
          <div className="Personal  text-white text-2xl font-bold font-['Epilogue'] leading-loose">Webfolio</div>
-         <div className='grid grid-cols-1 gap-y-2'>
+         <div className='flex flex-col gap-y-2 text-center lg:text-left'>
          <div className="Menu cursor-pointer  text-red-400 text-base font-normal font-['Epilogue'] uppercase leading-loose tracking-[3px]">Menu</div>
          <div className="cursor-pointer  text-white text-base font-normal font-['Epilogue'] leading-loose">About</div>
          <div className="cursor-pointer  text-white text-base font-normal font-['Epilogue'] leading-loose">Skills</div>
          <div className="cursor-pointer  text-white text-base font-normal font-['Epilogue'] leading-loose">Projects</div>
          <div className="cursor-pointer  text-white text-base font-normal font-['Epilogue'] leading-loose">Contact Us</div>
          </div>
-         <div className='grid grid-cols-1 gap-y-2'>
+         <div className='flex flex-col gap-y-2 text-center lg:text-left'>
          <div className="cursor-pointer  text-red-400 text-base font-normal font-['Epilogue'] uppercase leading-loose tracking-[3px]">Services</div>
          <div className="cursor-pointer  text-white text-base font-normal font-['Epilogue'] leading-loose">Javascript</div>
          <div className="cursor-pointer  text-white text-base font-normal font-['Epilogue'] leading-loose">Skills</div>
@@ -33,7 +33,7 @@ function Footer() {
          </div>
         </div>
         <div className="Rectangle mx-auto w-10/12 h-px bg-gray-700" />
-        <div className='flex flex-row justify-around pt-12 pb-16 '>
+        <div className='flex lg:flex-row lg:justify-around  flex-col items-center gap-y-6 pt-12 pb-16 '>
           <div className=" text-white text-opacity-60 text-base font-normal font-['Epilogue'] leading-loose">Copyright © 2022 Laaqiq. All Rights Reserved.</div>
           <div className='grid grid-cols-2 gap-x-20'>
           <div className="TermsOfUse text-right text-white text-base font-normal font-['Epilogue'] leading-loose">Terms of Use</div>
