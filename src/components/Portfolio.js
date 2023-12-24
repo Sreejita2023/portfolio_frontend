@@ -2,6 +2,7 @@ import React from "react";
 import shopeasy from "../assests/shopeasy.png";
 import gif from "../assests/gif.png";
 import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
 function Portfolio() {
   const openInNewTab = (url) => {
     window.open(url, '_blank', 'noreferrer');
@@ -17,7 +18,7 @@ function Portfolio() {
             Latest Work
           </div>
           <button className='rounded-md border border-white border-opacity-30 text-center text-white text-sm font-black font-["Epilogue"] uppercase px-6  py-2 justify-self-end'>
-            Explore More
+            <NavLink to="/project">Explore More</NavLink>
           </button>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Form from "../components/Form";
 import Header from "../components/Header";
 import map from "../assests/Bitmap.png";
@@ -9,6 +9,11 @@ function C_page() {
   const heading = "Contact";
   const title =
     "Agency provides a full service range including technical skills, design, business understanding.";
+    
+    useEffect(() => {
+      // 👇️ scroll to top on page load
+      window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+    }, []);  
   return (
     <div>
       <Header head={heading} title={title} />

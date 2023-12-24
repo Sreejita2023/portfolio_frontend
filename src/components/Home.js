@@ -2,6 +2,7 @@ import React from "react";
 import group from "../assests/group.png";
 import star from "../assests/Star.png";
 import { motion } from "framer-motion";
+import { NavLink } from 'react-router-dom'
 function Home() {
   return (
     <div className="bg-slate-800 left-0 right-0 relative z-10 px-4 flex lg:flex-row lg:justify-around  flex-col gap-y-12 items-center pb-4 pt-10">
@@ -34,10 +35,10 @@ function Home() {
         </div>
         <div className="grid grid-cols-2 gap-2 ">
           <button className="bg-red-400 rounded-md text-center text-white text-sm font-black font-['Epilogue'] uppercase py-4 hover:cursor-pointer  hover:bg-red-500">
-            Explore Work
+            <NavLink to="/project" >Explore Work</NavLink>
           </button>
           <button className="text-white text-base font-normal font-['Epilogue'] leading-loose cursor-pointer">
-            Contact Me
+            <NavLink to='/contact'>Contact Me</NavLink>
           </button>
         </div>
       </div>

@@ -17,7 +17,7 @@ function Nav() {
        <div className='text-center  hidden  text-white text-base font-normal leading-loose md:grid grid-cols-4 gap-5'>
           <div className=' cursor-pointer underline-offset-8 '><NavLink to="/" style={({ isActive }) => ({textDecoration: isActive ? 'underline white solid 3px' :'none' ,})}>Home</NavLink></div>
           <div className=' cursor-pointer underline-offset-8'><NavLink to="/project" style={({ isActive }) => ({textDecoration: isActive ? 'underline white solid 3px' :'none' ,})}>Projects</NavLink></div>
-          <div className=' cursor-pointer underline-offset-8'><NavLink to="/skill" style={({ isActive }) => ({textDecoration: isActive ? 'underline white solid 3px' :'none' ,})}>Skills</NavLink></div>
+          <div className=' cursor-pointer underline-offset-8'><NavLink to="/skill/web" style={({ isActive }) => ({textDecoration: isActive ? 'underline white solid 3px' :'none' ,})}>Skills</NavLink></div>
           <div className=' cursor-pointer underline-offset-8'><NavLink to="/about" style={({ isActive }) => ({textDecoration: isActive ? 'underline white solid 3px' :'none' ,})}>About me</NavLink></div>
        </div>
        <div className='right-0 md:flex hidden'>

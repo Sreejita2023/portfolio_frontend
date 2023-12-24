@@ -1,11 +1,18 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Header from "../components/Header";
 import start from "../assests/start.png";
 import block from "../assests/block.png";
+import { NavLink } from "react-router-dom";
 function A_page() {
   const heading = "About Me";
   const title =
     "Agency provides a full service range including technical skills, design, business understanding.";
+  
+    useEffect(() => {
+      // 👇️ scroll to top on page load
+      window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+    }, []);
+      
   return (
     <div>
       <Header head={heading} title={title} />
@@ -45,7 +52,7 @@ function A_page() {
               Move Faster
             </div>
             <button className='bg-red-400  px-6 py-3 rounded-md text-center text-white text-sm font-black font-["Epilogue"] uppercase'>
-              Contact Me
+              <NavLink to="/contact" >Contact Me</NavLink>
             </button>
           </div>
           <div className="PutThemselvesInTh w-[370px] text-orange-950 text-opacity-60 text-base font-normal font-['Epilogue'] leading-loose">

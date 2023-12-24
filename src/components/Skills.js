@@ -3,6 +3,7 @@ import dev from "../assests/dev.png";
 import prog from "../assests/prog.png";
 import learn from "../assests/learn.png";
 import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
 function Skills() {
   return (
     <div className="bg-orange-50 left-0 right-0 relative flex flex-col items-center z-10 px-4 pb-4 pt-10 ">
@@ -33,7 +34,7 @@ function Skills() {
           <div className="flex flex-row justify-start items-center">
             <img src={learn} className="w-12 h-12 mr-2" />
             <div className=" text-orange-950 text-base font-normal font-['Epilogue'] leading-loose cursor-pointer">
-              Learn More
+              <NavLink to="/skill/web">Learn More</NavLink>
             </div>
           </div>
         </motion.div>
@@ -56,7 +57,7 @@ function Skills() {
           <div className="flex flex-row justify-start items-center">
             <img src={learn} className="w-12 h-12 mr-2" />
             <div className=" text-orange-950 text-base font-normal font-['Epilogue'] leading-loose cursor-pointer">
-              Learn More
+             <NavLink to="/skill/programming">Learn More</NavLink>
             </div>
           </div>
         </motion.div>
@@ -66,7 +67,7 @@ function Skills() {
           Want more service?
         </div>
         <div className=" cursor-pointer text-orange-950 text-base font-normal font-['Epilogue'] leading-loose">
-          Explore Now
+          <NavLink to="/skill/web">Explore Now</NavLink>
         </div>
       </div>
     </div>

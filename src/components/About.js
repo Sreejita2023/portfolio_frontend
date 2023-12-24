@@ -1,6 +1,7 @@
 import React from "react";
 import group from "../assests/group1.png";
 import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
 function About() {
   return (
     <div className="bg-orange-50 left-0 right-0 flex flex-col relative  z-10 px-4 pb-14 pt-20 ">
@@ -36,7 +37,7 @@ function About() {
             team.
           </div>
           <button className=' bg-white rounded-md shadow text-center text-orange-950 text-sm font-black font-["Epilogue"] uppercase px-8 py-4 transition delay-75 duration-300 ease-in-out hover:scale-110'>
-            About Me
+            <NavLink to="/about">About Me</NavLink>
           </button>
         </div>
       </div>
@@ -47,7 +48,7 @@ function About() {
         <div className="HowWeWork mb-10 items-start text-red-400 text-base font-normal font-['Epilogue'] uppercase leading-loose tracking-[3px]">How we work</div>   
         <div className="MakingYourProjects mb-4 text-orange-950 text-[40px] font-extrabold font-['Epilogue'] leading-[48px]">Making Your Projects <br/>Look Awesome</div>
         <div className="TechnicalSkillsDe mb-12 w-[470px] h-[68px] text-orange-950 text-opacity-60 text-base font-normal font-['Epilogue'] leading-loose">Technical skills, design, business understanding, ability to put themselves in the merchant's shoes.</div>
-        <div className="ReadMore cursor-pointer  text-orange-950 text-base font-normal font-['Epilogue'] leading-loose">Read More</div>
+        <div className="ReadMore cursor-pointer  text-orange-950 text-base font-normal font-['Epilogue'] leading-loose"><NavLink to="/about" >Read More</NavLink></div>
         </div>
         <div className="Rectangle w-10/12 h-px mx-auto block lg:hidden bg-red-200" />
         <div>
