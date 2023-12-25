@@ -8,7 +8,7 @@ import email from "../assests/email.png";
 function C_page() {
   const heading = "Contact";
   const title =
-    "Agency provides a full service range including technical skills, design, business understanding.";
+    "Kindly complete the form, and I'll follow up shortly. You can also connect with me on LinkedIn for further communication.";
     
     useEffect(() => {
       // 👇️ scroll to top on page load
@@ -50,7 +50,7 @@ function C_page() {
             </div>
           </div>
           <div className=" text-orange-950 text-lg font-normal font-['Epilogue'] leading-loose">
-            info@agency.com
+            sensreejita67@gmail.com
           </div>
         </div>
         <div className="border border-red-200 flex flex-col gap-y-4 py-4  items-start pr-40  pl-5">

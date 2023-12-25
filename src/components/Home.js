@@ -30,8 +30,7 @@ function Home() {
           </div>
         </div>
         <div className=" max-w-[470px]  text-white text-opacity-60 text-base font-normal font-['Epilogue'] leading-loose mb-5">
-          Agency provides a full service range including technical skills,
-          design, business understanding.
+         Technical skills, design, business understanding, ability to put themselves in the project.
         </div>
         <div className="grid grid-cols-2 gap-2 ">
           <button className="bg-red-400 rounded-md text-center text-white text-sm font-black font-['Epilogue'] uppercase py-4 hover:cursor-pointer  hover:bg-red-500">

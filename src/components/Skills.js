@@ -28,8 +28,7 @@ function Skills() {
             </div>
           </div>
           <div className="AgencyIsABusiness  text-orange-950 text-opacity-60 text-base font-normal font-['Epilogue'] leading-loose mb-2">
-            Agency is a business you hire to outsource your digital marketing
-            efforts, instead of handling in-house.
+           Web development covers websites and web apps, encompassing front-end, back-end, and full-stack expertise.
           </div>
           <div className="flex flex-row justify-start items-center">
             <img src={learn} className="w-12 h-12 mr-2" />
@@ -51,8 +50,7 @@ function Skills() {
             </div>
           </div>
           <div className="AgencyIsABusiness  text-orange-950 text-opacity-60 text-base font-normal font-['Epilogue'] leading-loose mb-2">
-            Agency is a business you hire to outsource your digital marketing
-            efforts, instead of handling in-house.
+           C++ offers powerful tools like classes, templates, and libraries, ideal for effective data structure implementation in programs.
           </div>
           <div className="flex flex-row justify-start items-center">
             <img src={learn} className="w-12 h-12 mr-2" />
@@ -64,7 +62,7 @@ function Skills() {
       </div>
       <div className="flex flex-row justify-center mt-10">
         <div className="mr-2 text-right text-orange-950 text-opacity-60 text-base font-normal font-['Epilogue'] leading-loose">
-          Want more service?
+          Want to know more?
         </div>
         <div className=" cursor-pointer text-orange-950 text-base font-normal font-['Epilogue'] leading-loose">
           <NavLink to="/skill/web">Explore Now</NavLink>

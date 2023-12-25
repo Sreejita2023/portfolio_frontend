@@ -1,7 +1,7 @@
 import Nav from "./components/Nav";
 import Change from "./Change";
 import Footer from "./components/Footer";
-
+import Chat from './chat/Chat'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -14,6 +14,7 @@ function App() {
           <Change/>
           <Footer/>
       </div>
+      <Chat />
       <ToastContainer />
     </div>
   );

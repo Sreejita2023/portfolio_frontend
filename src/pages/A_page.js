@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 function A_page() {
   const heading = "About Me";
   const title =
-    "Agency provides a full service range including technical skills, design, business understanding.";
+    "Please take a moment to review my profile, where you can also find my LeetCode and GitHub accounts for further insight and exploration.";
   
     useEffect(() => {
       // 👇️ scroll to top on page load
@@ -26,17 +26,12 @@ function A_page() {
             Sreejita Sen
           </div>
           <div className="ProfessionalWebDes max-w-[570px]  text-orange-950 text-[56px] font-extrabold font-['Epilogue'] leading-[64px]">
-            Professional Web Designer
+           MERN stack developer
           </div>
           <div className="AbilityToPutThems max-w-[570px] text-orange-950 text-opacity-60 text-base font-normal font-['Epilogue'] leading-loose">
-            Ability to put themselves in the merchant's shoes. It is meant to
-            partner on the long run, and work as an extension of the merchant's
-            team.
+           Hello, I am a pre-final year B.Tech student specializing in Information Technology at JSS Academy of Technical Education, Noida. Proficiency in React, Node.js, MongoDB, and Express.js defines my skill set. I have a strong inclination towards competitive coding, regularly practicing on LeetCode and GeeksforGeeks. This has honed my expertise in data structures, algorithms, database management systems, and operating systems.
             <br />
-            <br />A digital agency is a business you hire to outsource your
-            digital marketing efforts, instead of handling in-house. They can
-            provide your business with a variety of digital solutions to promote
-            your product or service online and help you.
+            <br />Moreover, my active participation in Kavach and Smart India Hackathon speaks volumes about my problem-solving abilities. Alongside this, my year-long stint in the EDC college society has significantly contributed to refining my skills in team management and design. I invite you to explore further insights into my capabilities through my LeetCode and GitHub profiles. Thank you for considering my profile.
           </div>
         </div>
       </div>
@@ -56,8 +51,7 @@ function A_page() {
             </button>
           </div>
           <div className="PutThemselvesInTh w-[370px] text-orange-950 text-opacity-60 text-base font-normal font-['Epilogue'] leading-loose">
-          Put themselves in the merchant's shoes. It is meant to partner on the
-          long run.
+          Thank you for taking the time to review my profile. Your attention to my accomplishments and skills is greatly appreciated. 
         </div>
         <div><img src={block} className="max-w-[350px] max-h-[300px]"/></div>
         </div>

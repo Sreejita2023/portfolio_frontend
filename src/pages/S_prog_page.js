@@ -4,7 +4,7 @@ import Prog from '../components/skills/Prog'
 import { NavLink } from 'react-router-dom'
 function S_prog_page() {
   const heading="Skills"
-  const title="Agency provides a full service range including technical skills, design, business understanding."
+  const title="Skilled in web development and programming languages.Explore to discover more about my diverse skill set."
    
   useEffect(() => {
     // 👇️ scroll to top on page load
