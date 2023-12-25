@@ -39,7 +39,7 @@ function Form() {
   const submitHandler = async (data) => {
     console.log("data get submit", data);
     console.log(`${process.env.REACT_APP_BASE_URL}/getinfo`);
-    let result = await fetch("http://localhost:4000/api/v1/createinfo", {
+    let result = await fetch("https://webfolio2.onrender.com/createinfo", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
